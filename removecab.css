@@ -1,0 +1,63 @@
+*{
+     margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.background{
+    height: 300%;
+    width: 100%;
+    background-image: linear-gradient(to right,#000000,#000000);
+    background-size: contain;
+    background-position: center;
+    position: absolute;   
+}
+.label{
+    font-size: 30px;
+    color: orange;
+    font-family: cursive;
+    position: absolute;
+    left: 45%;
+    top: 5%;
+}
+
+.text{
+    position: absolute;
+     top: 10%;
+     left: 25%;
+     font-family: cursive;
+     color: white;
+     font-size: 20px;
+     text-align: center;
+     table-layout: inherit;
+}
+
+
+ table{
+     border-radius: 0px;
+      background: transparent;
+      color: black;
+     
+     
+ }
+ th{
+     border-radius: 0px;
+     color: #ffffff
+     
+ }
+ td{
+     border-radius: 0px;
+     color: orange;
+     
+ }
+
+.text input{
+   padding: 5px 10px;
+    cursor: pointer;
+    background: linear-gradient(black,orange);
+    border: 0;
+    color: black;
+    position: relative;
+    outline: none;
+    border-radius: 0px; 
+}

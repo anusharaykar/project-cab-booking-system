@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: url("cabmain.jfif");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+
+}
+.formbox{
+    width: 20%;
+    height: 300px;
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    margin: 8% auto;
+    background:transparent;
+    padding: 10px;
+    box-shadow: 0 0 10px 0px #000000;
+    border-radius: 10px;
+    
+}
+
+
+.btn{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    width: 20%;
+    height: 25px;
+    border-radius: 20px;
+    color: black;
+    background-image: linear-gradient(to right,yellow,orangered);
+    
+    
+    
+}
+.textt{
+    color:wheat;
+    font-size: 10px;
+}
+
+/*.img{
+    position: absolute;
+    left: 44%;
+    top: 37%;
+    height: 26%;
+    width: 8%;
+    background-image: url(bhargi.png);
+    background-position: center;
+    background-size: cover;
+   
+    
+ 
+    
+}*/
