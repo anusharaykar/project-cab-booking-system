@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    background-image:url("cabmain.jfif");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.formbox{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin: 6% auto;
+   top: 0%;
+   left: 55%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px #000000;
+}
+
+.input{
+    top: 20%;
+    color: white;
+    left: 20%;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.inputfield{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+.inputfield:hover{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px; 
+    
+    
+}
+.submitbutton{
+   
+    width: 105%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: auto;
+    background:  linear-gradient(to right,black,orange);
+    border: 1;
+    outline: none;
+    border-radius: 40px;
+}
+
+.label{
+    position: absolute;
+    top: 5%;
+    left: 22%;
+    font-size: 30px;
+    font-family: cursive;
+    color: orange;
+}

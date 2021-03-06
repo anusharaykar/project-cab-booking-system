@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.background{
+    height:100%;
+    width: 100%;
+    background-image:url("cabmain.jfif");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.formbox{
+    width: 450px;
+    height: 450px;
+    left: 50%;
+    position:absolute;
+    margin: 8% auto;
+/*    background: #ffffff;*/
+    padding: 10px;
+    box-shadow: 0 0 10px 0px #000000;
+    border-radius: 10px;
+    
+}
+
+.textdec1{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    
+}
+.textdec2{
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    
+}
+.textdec3{
+    font-size: 15px;
+    color:white;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    
+}
+.textdec4{
+    font-size: 15px;
+    color:white;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    
+}
+.textdec5{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    
+}
+
+.textdec6{
+    font-size: 15px;
+    color: whitesmoke;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    
+}
+
+.textdec7{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    
+}
+.textdec8{
+    font-size: 15px;
+    color:white;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    
+}
+.textdec9{
+    font-size: 15px;
+    color:white;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    
+}
+.textdec10{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    
+}
+.textdec11{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    
+}
+.textdec12{
+    font-size: 15px;
+    color:white;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    
+}
+
+
+label{
+    position: absolute;
+    top: 4%;
+    left: 27% ;
+    color:orange ;
+    font-size: 20px;
+}
+
+.submitb{
+    width: 60%;
+    position: absolute;
+    top: 80%;
+    left: 17%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: auto;
+    background: linear-gradient(to right,yellow,orangered);
+    outline: none;
+    border-radius: 40px;
+}

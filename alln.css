@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.background{
+    height: 100%;
+   width: 100%;
+    background-image:url("cabmain.jfif");
+    
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.formbox{
+    width: 500px;
+    height: 500px;
+    top: 0px;
+    left:60%;
+    position: absolute;
+    margin: 6% auto;
+  
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px 0px #000000;
+    overflow: hidden;
+    
+}
+.text{
+    font: sans-serif;
+    color: wheat;
+    font-size: 15px;
+    left: 50px;
+}
+.btn{
+    margin:10px;
+            background-color:  orange;
+            color: black;
+            padding: 10px 20px;
+            font-size: 10px;
+            position: absolute;
+            display: inline-block;
+            border-radius: 2px;
+            border: 2px solid black;
+            top: 90%;
+            left: 80%;
+}

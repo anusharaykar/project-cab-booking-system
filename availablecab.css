@@ -1,0 +1,63 @@
+.background{
+    
+    height: 100%;
+    width: 100%;
+    background-image: url("cabmain.jfif");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+ }
+ 
+ .label{
+     position: absolute;
+     left: 35%;
+     top: 5%;
+     color: cadetblue;
+     font-family: cursive;
+     font-size: 50px;
+     
+ }
+ 
+ table{
+     border-radius: 10px;
+      background: transparent;
+      color: wheat;
+     
+ }
+ th{
+     border-radius: 0px;
+     color: orangered;
+     
+ }
+ td{
+     border-radius: 0px;
+     color: white;
+     
+ }
+ 
+ .text{
+     position: absolute;
+     top: 30%;
+     left: 10%;
+     font-family: sans-serif;
+     color: white;
+     font-size: 30px;
+     text-align: center;
+     table-layout: inherit;
+     
+}
+
+
+.text input{
+    padding: 5px 20px;
+    cursor: pointer;
+    background: linear-gradient(black,black);
+    border: 0;
+    color: white;
+    position: relative;
+    outline: none;
+    border-radius: 20px;
+   
+   
+    
+}

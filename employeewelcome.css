@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background-image:url("cabmain.jfif");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.buttonbox{
+    width: 900px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 10px 0px orange;
+    border-radius: 10px;     
+}
+
+.buttonbox:hover{
+    
+    background-color:orange;
+}
+
+.button{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border: 0;
+    outline: none;
+    position: relative;
+    
+    
+ }
+ .button:hover{
+     color: white;
+ }
+ 
+ 
